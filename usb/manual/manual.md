@@ -17,6 +17,8 @@ Here we're greeted with all the possible USB ports in ACPI:
 | 10 | Type C connector - USB 2.0 and USB 3.0 without Switch | Flipping the device **does** change the ACPI port. generally seen on 3.1/2 motherboard headers |
 | 255 | Proprietary connector | For Internal USB ports like Bluetooth |
 
+* RGB LED controllers are ususally connected via internal USB port, may prevent some motherboards to sleep / restart / shutdown properly. Don't create a mapping for it, this way it will be disabled.
+
 ## USB Mapping: The manual way
 
 
